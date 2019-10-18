@@ -36,11 +36,11 @@ h2 {
   color: var(--white);
 }
 
-h2 .text-style-1 {
+h2 .text__style {
   font-weight: 400;
 }
 
-.Short-description {
+.short__description {
   width: 470px;
   height: 192px;
   text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
@@ -54,18 +54,12 @@ h2 .text-style-1 {
   color: var(--white);
 }
 
-#comming-experience section {
+#comming__experience section {
   position: relative;
-  /* top: 8em;
-  left: 3em; */
 }
 
-#comming-experience h2 {
+#comming__experience h2 {
   margin-top: 3em;
-}
-
-#comming-experience .row {
-  /* top: 150px; */
 }
 
 .regular.slider {
@@ -87,7 +81,7 @@ h2 .text-style-1 {
   width: 25%;
 }
 
-.navbar-brand {
+.link__img {
   background: url('../images/1-default.svg');
   width: 100%;
   background-repeat: no-repeat;
@@ -98,10 +92,10 @@ h2 .text-style-1 {
 @media only screen
 and (min-width: 360px)
 and (max-width: 1200px) {
-	#comming-experience h2 {
+	#comming__experience h2 {
     margin-top: 0em;
   }
-  .Short-description {
+  .short__description {
     width: 310px;
     height: 198px;
     font-size: 14px;
@@ -118,11 +112,11 @@ and (max-width: 1200px) {
     line-height: 1.62;
   }
   
-  h2 .text-style-1 {
+  h2 .text__style {
     font-weight: 400;
   }
 
-  #comming-experience section {
+  #comming__experience section {
     position: relative;
     top: 3em;
     left: 0em;
