@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,700&display=swap');
+
+:root {
+  --white: #ffffff;
+}
+
+body{
+	font-family: "Heebo", sans-serif;
+	position: relative;
+}
+
+.navbar-default {
+  border: none;
+}
+
+.container {
+  background: url('../images/bg.jpg');
+  overflow: hidden;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+h2 {
+  width: 555px;
+  height: 160px;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  font-family: Heebo;
+  font-size: 60px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: -0.5px;
+  color: var(--white);
+}
+
+h2 .text-style-1 {
+  font-weight: 400;
+}
+
+.Short-description {
+  width: 470px;
+  height: 192px;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  font-family: Heebo;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.6;
+  letter-spacing: 0.2px;
+  color: var(--white);
+}
+
+#comming-experience section {
+  position: relative;
+  /* top: 8em;
+  left: 3em; */
+}
+
+#comming-experience h2 {
+  margin-top: 3em;
+}
+
+#comming-experience .row {
+  /* top: 150px; */
+}
+
+.regular.slider {
+  margin-top: 7em;
+}
+
+.regular.slider img {
+  width: 100%;
+}
+
+.regular.slider div {
+  margin: 0 1.8em;
+}
+
+.content {
+  position: absolute;
+  bottom: 9vh;
+  right: 9vw;
+  width: 25%;
+}
+
+.navbar-brand {
+  background: url('../images/1-default.svg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 15px 0;
+  height: auto;
+}
+
+@media only screen
+and (min-width: 360px)
+and (max-width: 1200px) {
+	#comming-experience h2 {
+    margin-top: 0em;
+  }
+  .Short-description {
+    width: 310px;
+    height: 198px;
+    font-size: 14px;
+    line-height: 1.57;
+  }
+
+  h2 {
+    width: 139px;
+    height: 84px;
+    font-size: 26px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.62;
+  }
+  
+  h2 .text-style-1 {
+    font-weight: 400;
+  }
+
+  #comming-experience section {
+    position: relative;
+    top: 3em;
+    left: 0em;
+  }
+}
+
+@media only screen
+and (max-width: 360px) {
+	.content {
+    display: none;
+  }
+}
